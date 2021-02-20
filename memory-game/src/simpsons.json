@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "./public/images/homer.jpg"
+    },
+    {
+        "id": 2,
+        "image": "./public/images/marge.jpg"
+    },
+    {
+        "id": 3,
+        "image": "./public/images/bart.jpg"
+    },
+    {
+        "id": 4,
+        "image": "./public/images/lisa.jpg"
+    },
+    {
+        "id": 5,
+        "image": "./public/images/apu.jpg"
+    },
+    {
+        "id": 6,
+        "image": "./public/images/bob.jpg"
+    },
+    {
+        "id": 7,
+        "image": "./public/images/burns.jpg"
+    },
+    {
+        "id": 8,
+        "image": "./public/images/krusty.jpg"
+    },
+    {
+        "id": 9,
+        "image": "./public/images/ned.jpg"
+    },
+    {
+        "id": 10,
+        "image": "./public/images/nelson.jpg"
+    },
+    {
+        "id": 11,
+        "image": "./public/images/ralph.jpg"
+    },
+    {
+        "id": 12,
+        "image": "./public/images/skinner.jpg"
+    },
+]
