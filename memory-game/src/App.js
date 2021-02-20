@@ -7,7 +7,7 @@ import simpsons from "./simpsons.json";
 
 class App extends Component {
   state = {
-   
+
   }
 };
 
