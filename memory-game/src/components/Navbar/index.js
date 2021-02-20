@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar() {
     return (
-        <div className="container">
+        <div>
             <nav className="navbar sticky-top">
                 <div className="navbar-brand"><a href="/">Simpsons Click Game</a></div>
                 <div className="navbar-text">Click an image to begin!</div>
