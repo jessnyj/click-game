@@ -3,10 +3,9 @@ import "./style.css";
 
 function ActorCard(props) {
     return (
-        <div className="card">
-            <div className="img-container">
-                <img alt={props.name} src={props.image} />
-            </div>
+        // <div className="card-deck">
+        <div>
+            <img src={props.image} alt={props.name} className="img-thumbnail"></img>
         </div>
     );
 }

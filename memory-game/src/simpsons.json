@@ -1,50 +1,50 @@
 [
     {
         "id": 1,
-        "image": "./public/images/homer.jpg"
+        "image": "https://cdn.vox-cdn.com/thumbor/4W7j0mvuIEF-nx8Jkoolz1VS-U0=/0x0:939x704/1400x1400/filters:focal(0x0:939x704):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/49610677/homersimpson.0.0.jpg"
     },
     {
         "id": 2,
-        "image": "./public/images/marge.jpg"
+        "image": "https://cdn.costumewall.com/wp-content/uploads/2015/09/marge-simpson-tn.jpg"
     },
     {
         "id": 3,
-        "image": "./public/images/bart.jpg"
+        "image": "https://cdn.costumewall.com/wp-content/uploads/2015/09/bart-simpson.jpg"
     },
     {
         "id": 4,
-        "image": "./public/images/lisa.jpg"
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-simpsons-lisa-1589201259.jpg?crop=0.563xw:1.00xh;0.247xw,0&resize=480:*"
     },
     {
         "id": 5,
-        "image": "./public/images/apu.jpg"
+        "image": "https://uae24x7.com/wp-content/uploads/2020/06/apu.jpg"
     },
     {
         "id": 6,
-        "image": "./public/images/bob.jpg"
+        "image": "https://i.pinimg.com/originals/8e/a1/2b/8ea12bd79870a03994fbf65f63baaa92.jpg"
     },
     {
         "id": 7,
-        "image": "./public/images/burns.jpg"
+        "image": "https://i.pinimg.com/originals/81/16/1f/81161f7cdbd406197d4675f3e22f61b3.jpg"
     },
     {
         "id": 8,
-        "image": "./public/images/krusty.jpg"
+        "image": "https://www.mercurynews.com/wp-content/uploads/2016/08/20140723_034849_QSIMP9.jpg"
     },
     {
         "id": 9,
-        "image": "./public/images/ned.jpg"
+        "image": "https://i.pinimg.com/originals/f2/27/b9/f227b95f417dd59882803036ea7acd60.png"
     },
     {
         "id": 10,
-        "image": "./public/images/nelson.jpg"
+        "image": "https://images4.alphacoders.com/535/thumb-1920-53556.jpg"
     },
     {
         "id": 11,
-        "image": "./public/images/ralph.jpg"
+        "image": "https://cdn.costumewall.com/wp-content/uploads/2015/09/maggie-simpson.jpg"
     },
     {
         "id": 12,
-        "image": "./public/images/skinner.jpg"
-    },
+        "image": "https://assets.mycast.io/characters/seymour-skinner-91315-normal.jpg?1572373325"
+    }
 ]
