@@ -15,3 +15,6 @@ nav, section {
     display: block;
 } 
 
+.navbar-brand {
+    color: #fff;
+}
