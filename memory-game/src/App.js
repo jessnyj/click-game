@@ -16,12 +16,15 @@ class App extends Component {
     return (
       <Wrapper>
         <Navbar />
-        {this.state.simpsons.map(simpson => (
-          <ActorCard
-          id={simpson.id}
-          image={simpson.image}
-          />
-        ))}
+        <div className="container">
+          {this.state.simpsons.map(simpson => (
+            <ActorCard
+              id={simpson.id}
+              key={simpson.id}
+              image={simpson.image}
+            />
+          ))}
+        </div>
       </Wrapper>
     );
   }
