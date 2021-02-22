@@ -3,13 +3,11 @@ import "./style.css";
 
 function Navbar() {
     return (
-        <div>
             <nav className="navbar sticky-top">
-                <div className="navbar-brand"><a href="/">Simpsons Click Game</a></div>
+                <div className="navbar-brand"><a href="/">The Simpsons Game</a></div>
                 <div className="navbar-text">Click an image to begin!</div>
                 <div className="navbar-text">Score: 0 | Top Score: 0</div>
             </nav>
-        </div>
     );
 }
 

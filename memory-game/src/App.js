@@ -16,6 +16,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Navbar />
+        <Jumbotron />
         <div className="container">
           {this.state.simpsons.map(simpson => (
             <ActorCard
