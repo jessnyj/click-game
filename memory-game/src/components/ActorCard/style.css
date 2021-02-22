@@ -1,4 +1,4 @@
-/* .card {
+.card {
     background: #fff;
     border-radius: 2px;
     height: 150px;
@@ -25,26 +25,28 @@
 .card {
     list-style-type: none;
 }
-
+/* 
 .card {
-    margin-top: 18px;
-}  */
-
-/* .card {
     color: #ff1744;
     font-size: 48px;
     position: absolute;
     top: -20px;
     right: 5px;
     cursor: pointer;
-} */
-/* 
-.img {
-    width: 20px;
-    height: 20px;
 }  */
+
 
 .img-thumbnail {
     width: 200px;
     height: 200px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    margin-top: 18px;
+    border-radius: 2px;
+}
+
+.container {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    
 }
