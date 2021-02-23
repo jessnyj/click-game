@@ -11,6 +11,10 @@ class App extends Component {
     simpsons: simpsons
   };
 
+  randomCard = () => {
+    this.setState({simpsons: this.state.simpsons})
+  }
+
 
   render() {
     return (

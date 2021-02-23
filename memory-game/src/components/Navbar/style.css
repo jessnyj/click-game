@@ -17,5 +17,7 @@ nav, section {
 
 .navbar-brand {
     color: #fff;
+    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+    text-decoration: none;
+    /* color: inherit; */
 }
-
