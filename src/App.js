@@ -19,7 +19,7 @@ class App extends Component {
   componentDidMount() {
     this.randomCard();
   } 
-
+// Score and top score
   cardSelection = (id) => {
     if (this.state.simpCards.indexOf(id) > -1) {
       this.setState ({
@@ -41,7 +41,7 @@ class App extends Component {
     }
     this.randomCard();
   }
-
+// Shuffling of cards
   randomCard = () => {
     const randSimp = this.state.simpsons.sort(() => Math.random() - 0.5);
     this.setState({simpsons: randSimp})
@@ -74,5 +74,7 @@ class App extends Component {
   }
 }
 
+// Portfolio!
+// https://jessny-portfolio.herokuapp.com/
 
 export default App;
