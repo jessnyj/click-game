@@ -11,9 +11,18 @@ class App extends Component {
     simpsons: simpsons
   };
 
-  randomCard = () => {
-    this.setState({simpsons: this.state.simpsons})
+  componentDidMount() {
+    this.randomCard();
+  } 
+
+  cardSelection = (id) => {
+    this.randomCard(id);
   }
+
+  randomCard = () => {
+    const randSimp = this.state.simpsons.sort(() => Math.random() - 0.5);
+    this.setState({simpsons: randSimp})
+    }
 
 
   render() {
@@ -24,6 +33,7 @@ class App extends Component {
         <div className="container">
           {this.state.simpsons.map(simpson => (
             <ActorCard
+              cardSelection={this.cardSelection}
               id={simpson.id}
               key={simpson.id}
               image={simpson.image}
