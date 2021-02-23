@@ -1,4 +1,19 @@
 .jumbotron {
-    width: 100%;
-    
+    background:#2c323c;
+    min-height: 400px;
+    text-align: center;
+}
+
+.display-4 {
+    margin-top: 70px;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.lead {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
 }
