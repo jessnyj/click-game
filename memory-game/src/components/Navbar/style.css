@@ -1,7 +1,6 @@
 .navbar {
     background: #5133a4;
     min-height: 70px;
-    /* position: fixed; */
     width: 100%;
     -webkit-box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
     box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
@@ -15,9 +14,16 @@ nav, section {
     display: block;
 } 
 
+.link{
+    color: #fff;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
 .navbar-brand {
     color: #fff;
     font-size: calc(10px + 14 * (100vw - 320px)/ 800);
     text-decoration: none;
-    /* color: inherit; */
 }
