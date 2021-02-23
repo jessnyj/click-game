@@ -31,15 +31,38 @@
 * Github
 
 ## Description
-
+This application is a click game that allows you to test your memory skills! Upon entering the site, you are provided with 12 images which you can click but not more than once. Your score is being tracked as well as the top score.
 
 ## Work Involved
- 
+In order to develop this application, I utilized Bootstrap and animate.css for the frontend aspects. I utilized React in order to devlop the functionality of the score tracking and ranomization of the images. 
 
 ## Code Snippet
-* 
+* This code snippet highlights how the applications components are rendered.
 ```
-
+ render() {
+    return (
+      <Wrapper>
+        <Navbar
+        score={this.state.score}
+        topScore={this.state.topScore}
+        rightWrong={this.state.rightWrong}
+        />
+        <Jumbotron />
+        <div className="container">
+          {this.state.simpsons.map(simpson => (
+            <ActorCard
+              cardSelection={this.cardSelection}
+              id={simpson.id}
+              key={simpson.id}
+              image={simpson.image}
+              shake={this.state.shake}
+            />
+          ))}
+        </div>
+        <Footer />
+      </Wrapper>
+    );
+  }
 ```
 
 ## License
